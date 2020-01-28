@@ -1,0 +1,36 @@
+// Widget
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: $xl-size;
+
+  background: $light-blue;
+
+  min-height: 22rem;
+
+  .widget-header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: $m-size;
+
+    background: $blue;
+    color: $off-white;
+
+    .widget-header__header {
+      margin: 0;
+    }
+  }
+
+  .widget--message {
+    text-align: center;
+
+    margin: 0;
+    padding: $l-size;
+
+    color: $off-white;
+
+    border-bottom: 1px solid lighten($light-blue, 10%);
+  }
+}
